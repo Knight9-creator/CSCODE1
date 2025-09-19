@@ -87,3 +87,9 @@ while shopping == "yes":
 #Then we initialize the constants, "COFFEE QTY, MUFFIN QTY, FRUIT QTY".
 #Then we make variables, "user_buy_coffee, user_buy_muffin, user_buy_fruit", to use later. We make these variables greater than the amount of stock available to get an appropriate answer from the user in the while loop.
 #Then, we declare all the constants that will be used in later calculations. 
+#Then, we make variables to calculate the gross revenue of each item, as well as the cost of the items.
+#Then we add all the gross values to find the "total_gross". As well as the "total_cost".
+#Then we find the "total_cash_out" as well as the "total_cash_in".
+#Then we calculate the "net_profit_or_loss".
+#Based on the "net_profit_or_loss" variable, we determine whether the shop gained a net profit or a net loss.
+#Finally we ask the user if they would like to shop again. If so, we repeat the loop.
