@@ -1,3 +1,9 @@
+#Ameer Uzman = Architect, Verifier
+#Roshaan Akhtar = Calculator, Reporter
+
+
+
+
 #Shopping variable declared so we have use the while loop.
 shopping = "yes"
 
