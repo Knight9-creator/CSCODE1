@@ -1,3 +1,21 @@
+T
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+
+
+
+
+
+
 #Shopping variable declared so we have use the while loop.
 shopping = "yes"
 
