@@ -1,22 +1,32 @@
-def score_analyzer():
-    scores = []
+playlist = ["Love", "Like", "Subscribe"]
 
-    i = 0
-    while i < 6:
-        try:
-            user_input = float(input(f"Type in a score for Score #{i+1}: "))
-            scores.append(user_input)
-            i += 1
+while True:
+    print("\nPlaylist:", playlist)
+    print("(a)dd (i)nsert (r)emove (p)op (s)ort (v)iew (q)uit")
+    choice = input("Choose: ").strip().lower()
+    if choice == "q":
+        print("Goodbye!")
+        break
+    elif choice == "a":
+        playlist.append(input("Name of song to add: "))
+    elif choice == "i":
+        playlist.append(input("Name of song to input: "))
+    elif choice == "r":
+        playlist.remove(input("Name of song to Remove: "))
+    elif choice == "p":
+        inp = input("Name of song to Delete(pop): ")
 
-        except ValueError:
-            print("Invalid Input!")
-    
+        for i in range(len(playlist)):
+            x = playlist[i]
+            if x == inp:
+                y=i
+                break
 
-    min_score = min(scores)
-    max_score = max(scores)
-    sum_score = sum(scores)
-
-    print("\n" + "Results: " + "\n" + f"Scores: {scores}" + "\n" + f"Average: {sum_score / len(scores):.2f}" + "\n" + f"Maximum Score: {max_score:.2f}" + "\n" + f"Minimum Score {min_score:.2f}" + "\n")
-
-if __name__ == '__main__':
-    score_analyzer()
+        playlist.pop(y)
+    elif choice == "s":
+        playlist.sort()
+        print("Sorted Playlist!")
+    elif choice == "v":
+        print(playlist)
+    else:
+        print("Enter a valid character based on the prompt...")
