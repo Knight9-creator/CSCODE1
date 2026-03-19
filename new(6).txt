@@ -1,0 +1,26 @@
+#Capstone: performance report + clean code 
+
+FPS Typical Range: 58-62
+Latency Range: 1-3 (Based on what we've seen so far.)
+We fixed the UI code, so that the user can easily tell the stats that the user needs to know, such as latency, fps, double jump being unlocked, etc.
+
+#Evidence checklist: screenshots + numbers. 
+
+Evidence is the new FPS (58-62) and Latency (1-3) visuals in the UI code.
+
+#Write a 1-page performance report with claims + evidence. 
+
+Claim is that the new Latency & FPS visuals allowed the game to feel more polished for a better user experience.
+Evidence is the new FPS (58-62) and Latency (1-3) visuals in the UI code.
+
+#Peer review: does evidence support the claims? 
+
+
+
+#Finalize optimized code + report PDF. 
+
+
+
+#What would you optimize next and why? 
+
+I would optimize the UI to fit more cleanly so that the game feels polished for the user.
